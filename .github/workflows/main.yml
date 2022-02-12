@@ -16,3 +16,5 @@ jobs:
           heroku_app_name: "pokedex-vinu"
           heroku_email: "vinuvinayaka2000@gmail.com"
           healthcheck: "https://pokedex-vinu.herokuapp.com/health"
+          checkstring: "ok"
+          rollbackonhealthcheckfailed: true
