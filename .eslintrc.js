@@ -4,7 +4,6 @@ module.exports = {
     "es6": true,
     "jest/globals": true, 
     'commonjs': true,
-    'es2021': true,
     'node': true
   },
   "extends": [
@@ -45,6 +44,7 @@ module.exports = {
     ],
     "arrow-spacing": [
       "error", { "before": true, "after": true }
-    ]
+    ],
+    "react/prop-types": 0
   }
 }
